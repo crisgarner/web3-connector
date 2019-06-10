@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Web3Provider from "web3-react";
-import "./App.css";
+import "./App.scss";
 import connectors from "./connectors";
-import ConnectWallet from "./ConnectWallet";
+import ConnectWallet from "./components/ConnectWallet";
+
 import web3 from "web3";
 
 class App extends Component {

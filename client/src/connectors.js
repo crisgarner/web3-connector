@@ -12,12 +12,12 @@ const {
 
 const defaultNetwork = 1;
 const supportedNetworkURLs = {
-  1: "https://mainnet.infura.io/v3/60ab76e16df54c808e50a79975b4779f",
-  4: "https://rinkeby.infura.io/v3/60ab76e16df54c808e50a79975b4779f"
+  1: process.env.REACT_APP_INFURA_MAINNET_URL,
+  4: process.env.REACT_APP_INFURA_RINKEBY_URL
 };
 const Fortmatic = new FortmaticConnector({
   api: FortmaticApi,
-  apiKey: "pk_test_C6808B2B488687F6",
+  apiKey: process.env.REACT_APP_FORTMATIC_API_KEY,
   logoutOnDeactivation: false,
   testNetwork: "rinkeby"
 });
@@ -32,7 +32,7 @@ const Injected = new InjectedConnector();
 
 const Portis = new PortisConnector({
   api: PortisApi,
-  dAppId: "36a9597d-efb9-4710-b490-5c61f7d42ea3",
+  dAppId: process.env.REACT_APP_FORTMATIC_API_KEY,
   network: "rinkeby"
 });
 
