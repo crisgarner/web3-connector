@@ -2,6 +2,8 @@
 
 This is a simple component that I created in order to reuse for personal projects. Then component uses the ConsenSys Rimble UI System to add design to the [Web3-React Library](https://noahzinsmeister.gitbook.io/web3-react/) created by [@Noah Zinsmeister](https://twitter.com/noahzinsmeister).
 
+![alt text][preview.png]
+
 ## Requirements
 
 - [Rimble UI](https://rimble.consensys.design/)
