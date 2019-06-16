@@ -2,7 +2,7 @@
 
 This is a simple component that I created in order to reuse for personal projects. Then component uses the ConsenSys Rimble UI System to add design to the [Web3-React Library](https://noahzinsmeister.gitbook.io/web3-react/) created by [@Noah Zinsmeister](https://twitter.com/noahzinsmeister).
 
-### 🚧🚧🚧 Notice 🚧🚧🚧
+## 🚧🚧🚧 Notice 🚧🚧🚧
 We are currently working with differente community members on a plug and use component in the following repo https://github.com/web3connect/web3connect
 
 ![Preview Image](/preview.png)
